@@ -12,10 +12,10 @@ export const Header = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent flex items-end p-6 md:p-8">
           <div>
             <h1 className="text-3xl md:text-5xl font-bold neon-text mb-2">
-              Ultimate Student Tracker
+              My study tracker
             </h1>
             <p className="text-muted-foreground text-sm md:text-base">
-              Track your study hours, sleep schedule, and daily tasks
+              by ATHARVA THE ENCODER: @atharvahadke11
             </p>
           </div>
         </div>
