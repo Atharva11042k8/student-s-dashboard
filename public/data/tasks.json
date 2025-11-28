@@ -1,0 +1,25 @@
+{
+  "2025-01-01": [
+    { "task": "Read 20 minutes", "done": true },
+    { "task": "Study Chemistry 2 hrs", "done": false },
+    { "task": "Exercise 15 min", "done": true }
+  ],
+  "2025-01-02": [
+    { "task": "Solve Math PYQs", "done": true },
+    { "task": "Complete Physics Assignment", "done": true },
+    { "task": "Review Biology Notes", "done": false }
+  ],
+  "2025-01-03": [
+    { "task": "Practice Coding Problems", "done": true },
+    { "task": "Study History Chapter 5", "done": true }
+  ],
+  "2025-01-04": [
+    { "task": "Read English Literature", "done": false },
+    { "task": "Math Practice Set", "done": true },
+    { "task": "Yoga 30 min", "done": true }
+  ],
+  "2025-01-05": [
+    { "task": "Chemistry Lab Report", "done": true },
+    { "task": "Group Study Session", "done": true }
+  ]
+}
