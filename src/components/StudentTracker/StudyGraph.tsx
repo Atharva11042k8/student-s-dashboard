@@ -10,6 +10,8 @@ import {
   Legend,
   Filler,
 } from 'chart.js';
+import { Maximize2 } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 ChartJS.register(
   CategoryScale,
@@ -104,11 +106,26 @@ export const StudyGraph = ({ data }: StudyGraphProps) => {
     },
   };
 
+  const handleExpand = () => {
+    window.open('/graph/study', '_blank');
+  };
+
   return (
     <div className="glass-card rounded-xl p-6">
-      <h3 className="text-xl font-semibold mb-6 flex items-center gap-2">
-        <span className="text-primary">📚</span> Study Time (Hours)
-      </h3>
+      <div className="flex items-center justify-between mb-6">
+        <h3 className="text-xl font-semibold flex items-center gap-2">
+          <span className="text-primary">📚</span> Study Time (Hours)
+        </h3>
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={handleExpand}
+          className="gap-2"
+        >
+          <Maximize2 className="w-4 h-4" />
+          Expand
+        </Button>
+      </div>
       <div className="h-64 md:h-80">
         <Line data={chartData} options={options} />
       </div>
